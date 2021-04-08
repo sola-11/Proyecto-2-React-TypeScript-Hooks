@@ -9,13 +9,13 @@ interface FormData {
 
 export const Formulario = () => {
     
-const  {  formulario, handleChange } = useForm<FormData>({
+const  {  nombre, email, edad, handleChange, formulario } = useForm<FormData>({
     email: 'Solanny@gmail.com',
     nombre: 'Solanny Batista',
     edad: 35
 });
 
-const { email, nombre, edad } = formulario;
+//const { email, nombre, edad } = formulario;
 
 
 //   const [formulario, setformulario] = useState({

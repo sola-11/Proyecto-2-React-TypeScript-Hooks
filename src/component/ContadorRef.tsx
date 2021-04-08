@@ -18,10 +18,10 @@ switch ( action.type ) {
             contador: state.contador + 1 
         }
 
-        case 'decrementar'
-        return{
+        case 'decrementar':
+        return {
             ...state,
-            contador: state.contador - 1;
+            contador: state.contador - 1
         }
         case 'custom':
         return {
